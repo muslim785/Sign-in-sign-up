@@ -81,9 +81,9 @@ export default function Example() {
                     key={item.name}
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
                   >
-                    <div className="flex size-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                    {/* <div className="flex size-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <img src={item.src} aria-hidden="true" className="size-11 text-gray-600 group-hover:text-indigo-600" />
-                    </div>
+                    </div> */}
                     <div className="flex-auto">
                       <a href={item.src } className="block font-semibold text-gray-900">
                         {item.name}
